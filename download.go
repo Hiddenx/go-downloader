@@ -20,7 +20,7 @@ var key = flag.String("key", "", "S3 object key to download")
 
 //Optional arguments
 var concurrency = flag.Int("concurrency", 3000, "Number of concurrent connections.")
-var partSize = flag.Int("partSize", 100, "Number of concurrent connections.")
+var partSize = flag.Int("partSize", 100, "Part size of objects")
 
 func main() {
 	//Parse command-line arguments
